@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{my_name}}, CISW 24, SPRING 2021</title>
+        <title>My Public Web Server</title>
     </head>
     <body>
-        <h1>Mt. San Antonio College</h1>
-        <h2>CISW 24, Spring 2021</h2>
+        <h1>CISW24 Spring 2021</h1>
+        <h2>My Public Web Server</h2>
             <p>Hello, my name is {{my_name}}
             </p>
             <p>
-                <a href="{{url_for('about')}}">About me</a>
-                <a href="{{url_for('looping')}}">Looping Example</a>
-
+                <a href="{{url_for('login')}}">Login</a><br>
+                <a href="{{url_for('about')}}">About me</a><br>
+                <a href="{{url_for('looping')}}">Looping Example</a><br>
+                <a href="{{url_for('goodbye')}}">Goodbye!</a><br>
             </p>
     </body>
 </html>
